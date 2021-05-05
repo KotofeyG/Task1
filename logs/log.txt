@@ -1,0 +1,84 @@
+04 мая 2021 10:58:35,510 [main] INFO  com.kotov.array.validator.DataFilter : filterIntStrings - Data is filtered. Result is [1, 2, -10, 5, 22, 83, -10, -6, 0, 6]
+04 мая 2021 10:58:35,527 [main] INFO  com.kotov.array.parser.DataParser : parseDataIntoNumericStrings - Data is parsed into numeric strings. Result is [1, 2, -10, 5, 22, 83, -10, -6, 0, 6]
+04 мая 2021 10:58:35,531 [main] INFO  com.kotov.array.parser.DataParser : transformNumericStringArrayIntoIntArray - Int array is created. Result is [1, 2, -10, 5, 22, 83, -10, -6, 0, 6]
+04 мая 2021 10:58:35,545 [main] INFO  com.kotov.array.reader.DataReader : readDataFromFile - File reading is successful. Result is 1 2 -10 # $%^& 5 22 83 5% number -10 -6 0 yyyy 5@ 44! 6 
+04 мая 2021 10:58:35,550 [main] ERROR com.kotov.array.reader.DataReader : readDataFromFile - Wrong argument. Unable to read data from test_resources\testDirectory
+04 мая 2021 10:58:35,554 [main] ERROR com.kotov.array.reader.DataReader : readDataFromFile - Wrong argument. Unable to read data from test_resources\emptyFile.txt
+04 мая 2021 10:58:35,557 [main] ERROR com.kotov.array.reader.DataReader : readDataFromFile - Wrong argument. Unable to read data from test_resources\nonexistentFile.txt
+04 мая 2021 10:58:35,561 [main] ERROR com.kotov.array.reader.DataReader : readDataFromFile - Wrong argument. Unable to read data from null
+04 мая 2021 10:58:35,577 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : insertionSort - Array length is 0. It cannot be sorted
+04 мая 2021 10:58:35,587 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : quickSort - Array length is 0. It cannot be sorted
+04 мая 2021 10:58:35,592 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : selectionSort - Array length is 0. It cannot be sorted
+04 мая 2021 10:58:35,603 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : streamSort - Array length is 0. It cannot be sorted
+04 мая 2021 10:58:35,609 [main] DEBUG com.kotov.array.service.impl.ArraySortServiceImpl : insertionSort - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,611 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : insertionSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:35,617 [main] DEBUG com.kotov.array.service.impl.ArraySortServiceImpl : quickSort - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,619 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : quickSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:35,628 [main] DEBUG com.kotov.array.service.impl.ArraySortServiceImpl : selectionSort - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,629 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : selectionSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:35,642 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : streamSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:35,683 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfNegativeElements - Array is empty. Result is 0
+04 мая 2021 10:58:35,684 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateQuantityOfNegativeElements - Array is empty. Result is 0
+04 мая 2021 10:58:35,687 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfPositiveElements - Array is empty. Result is 0
+04 мая 2021 10:58:35,688 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateQuantityOfPositiveElements - Array is empty. Result is 0
+04 мая 2021 10:58:35,700 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : changePrimeNumbersToZero - Array length is 0. Calculation don't need to continue
+04 мая 2021 10:58:35,702 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : changePrimeNumbersToZero - Array length is 0. Calculation don't need to continue
+04 мая 2021 10:58:35,716 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,717 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Calculation of sum of array elements is successful. Result is 93
+04 мая 2021 10:58:35,721 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateArithmeticMean - Calculation of arithmetic mean is successful. Result is 9.3
+04 мая 2021 10:58:35,723 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateArithmeticMean - Calculation of arithmetic mean is successful. Result is 9.3
+04 мая 2021 10:58:35,726 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfNegativeElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,727 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfNegativeElements - Search for quantity of elements numbers is successful. Result is 3
+04 мая 2021 10:58:35,730 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateQuantityOfNegativeElements - Search for quantity of positive elements is successful. Result is 3
+04 мая 2021 10:58:35,732 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfPositiveElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,733 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfPositiveElements - Search for quantity of positive elements is successful. Result is 6
+04 мая 2021 10:58:35,734 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateQuantityOfPositiveElements - Search for quantity of positive elements is successful. Result is 6
+04 мая 2021 10:58:35,736 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,737 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Calculation of sum of array elements is successful. Result is 93
+04 мая 2021 10:58:35,739 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateSumOfElements - Calculation of sum of array elements is successful. Result is 93
+04 мая 2021 10:58:35,741 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : changePrimeNumbersToZero - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,742 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : changePrimeNumbersToZero - Replacing prime numbers to zero is successful. Result is CustomArray[ array = 1, 0, -10, 0, 22, 0, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,746 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : changePrimeNumbersToZero - Replacing prime numbers to zero is successful. Result is CustomArray[ array = 1, 0, -10, 0, 22, 0, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,748 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMaxElement - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,748 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMaxElement - Search for maximum value in array is successful. Result is 83
+04 мая 2021 10:58:35,750 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : findMaxElement - Search for minimum value in array is successful. Result is 83
+04 мая 2021 10:58:35,752 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMinElement - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,752 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMinElement - Search for minimum value in array is successful. Result is -10
+04 мая 2021 10:58:35,754 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : findMinElement - Search for minimum value in array is successful. Result is -10
+04 мая 2021 10:58:35,764 [main] INFO  com.kotov.array.creator.ArrayCreator : createCustomArray - Object is created: CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:35,772 [main] INFO  com.kotov.array.validator.DataFilter : filterIntStrings - Data is filtered. Result is [1, 2, -10, 5, 22, -10, -6, 0, 6]
+04 мая 2021 10:58:35,777 [main] INFO  com.kotov.array.validator.DataFilter : filterIntStrings - Data is filtered. Result is [1, 2, -10, 5, 22, -10, -6, 0, 6]
+04 мая 2021 10:58:47,410 [main] INFO  com.kotov.array.reader.DataReader : readDataFromFile - File reading is successful. Result is 1 2 -10 # $%^& 5 22 83 5% number -10 -6 0 yyyy 5@ 44! 6 
+04 мая 2021 10:58:47,428 [main] INFO  com.kotov.array.validator.DataFilter : filterIntStrings - Data is filtered. Result is [1, 2, -10, 5, 22, 83, -10, -6, 0, 6]
+04 мая 2021 10:58:47,429 [main] INFO  com.kotov.array.parser.DataParser : parseDataIntoNumericStrings - Data is parsed into numeric strings. Result is [1, 2, -10, 5, 22, 83, -10, -6, 0, 6]
+04 мая 2021 10:58:47,439 [main] INFO  com.kotov.array.parser.DataParser : transformNumericStringArrayIntoIntArray - Int array is created. Result is [1, 2, -10, 5, 22, 83, -10, -6, 0, 6]
+04 мая 2021 10:58:47,449 [main] INFO  com.kotov.array.creator.ArrayCreator : createCustomArray - Object is created: CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,488 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,489 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Calculation of sum of array elements is successful. Result is 93
+04 мая 2021 10:58:47,495 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateArithmeticMean - Calculation of arithmetic mean is successful. Result is 9.3
+04 мая 2021 10:58:47,509 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateArithmeticMean - Calculation of arithmetic mean is successful. Result is 9.3
+04 мая 2021 10:58:47,517 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfNegativeElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,519 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfNegativeElements - Search for quantity of elements numbers is successful. Result is 3
+04 мая 2021 10:58:47,524 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateQuantityOfNegativeElements - Search for quantity of positive elements is successful. Result is 3
+04 мая 2021 10:58:47,528 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfPositiveElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,529 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateQuantityOfPositiveElements - Search for quantity of positive elements is successful. Result is 6
+04 мая 2021 10:58:47,537 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateQuantityOfPositiveElements - Search for quantity of positive elements is successful. Result is 6
+04 мая 2021 10:58:47,540 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,544 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : calculateSumOfElements - Calculation of sum of array elements is successful. Result is 93
+04 мая 2021 10:58:47,556 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : calculateSumOfElements - Calculation of sum of array elements is successful. Result is 93
+04 мая 2021 10:58:47,567 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : changePrimeNumbersToZero - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,576 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : changePrimeNumbersToZero - Replacing prime numbers to zero is successful. Result is CustomArray[ array = 1, 0, -10, 0, 22, 0, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,587 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : changePrimeNumbersToZero - Replacing prime numbers to zero is successful. Result is CustomArray[ array = 1, 0, -10, 0, 22, 0, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,592 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMaxElement - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,595 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMaxElement - Search for maximum value in array is successful. Result is 83
+04 мая 2021 10:58:47,601 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : findMaxElement - Search for minimum value in array is successful. Result is 83
+04 мая 2021 10:58:47,607 [main] DEBUG com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMinElement - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,611 [main] INFO  com.kotov.array.service.impl.ArrayCalculateServiceImpl : findMinElement - Search for minimum value in array is successful. Result is -10
+04 мая 2021 10:58:47,617 [main] INFO  com.kotov.array.service.impl.ArrayStreamCalculateServiceImpl : findMinElement - Search for minimum value in array is successful. Result is -10
+04 мая 2021 10:58:47,620 [main] DEBUG com.kotov.array.service.impl.ArraySortServiceImpl : insertionSort - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,620 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : insertionSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:47,624 [main] DEBUG com.kotov.array.service.impl.ArraySortServiceImpl : quickSort - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,625 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : quickSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:47,627 [main] DEBUG com.kotov.array.service.impl.ArraySortServiceImpl : selectionSort - Argument is CustomArray[ array = 1, 2, -10, 5, 22, 83, -10, -6, 0, 6 ]
+04 мая 2021 10:58:47,631 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : selectionSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]
+04 мая 2021 10:58:47,637 [main] INFO  com.kotov.array.service.impl.ArraySortServiceImpl : streamSort - Array is sorted. Result is CustomArray[ array = -10, -10, -6, 0, 1, 2, 5, 6, 22, 83 ]

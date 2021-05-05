@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Task1" verbose="1">
+    <test name="fromReaderToService">
+        <groups>
+            <run>
+                <include name="mainGroup"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.kotov.array.reader.DataReaderTest"/>
+            <class name="test.kotov.array.parser.DataParserTest"/>
+            <class name="test.kotov.array.creator.ArrayCreatorTest"/>
+            <class name="test.kotov.array.service.ArrayCalculateServiceTest"/>
+            <class name="test.kotov.array.service.ArraySortServiceTest"/>
+        </classes>
+    </test>
+</suite>
